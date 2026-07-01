@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects — Bijaya</title>
+  <style>
+    :root{
+      --paper: #FBF6EC;
+      --paper-dark: #F2E9D8;
+      --ink: #21201D;
+      --coral: #FF6B4A;
+      --teal: #1F8A82;
+      --mustard: #F2B705;
+      --line: rgba(33,32,29,0.14);
+    }
+    *{box-sizing:border-box; margin:0; padding:0;}
+    body{
+      font-family: Arial, sans-serif;
+      background: var(--paper);
+      color: var(--ink);
+      line-height:1.6;
+      padding:24px 6vw 48px;
+    }
+    a{color:inherit;}
+    .back{display:inline-block; margin-bottom:20px; text-decoration:none; font-weight:700; color:var(--teal);}
+    .page{max-width:1000px; margin:0 auto;}
+    .hero{margin-bottom:30px;}
+    .hero h1{font-size:clamp(2rem, 5vw, 3rem); margin-bottom:10px;}
+    .card{background:var(--paper-dark); border:2px solid var(--ink); border-radius:8px; padding:24px; margin-bottom:24px; box-shadow:5px 5px 0 rgba(33,32,29,0.16);}
+    .card h2{margin-bottom:10px; font-size:1.35rem;}
+    .tag{display:inline-block; margin-bottom:12px; font-size:0.8rem; text-transform:uppercase; letter-spacing:0.06em; color:var(--coral); font-weight:700;}
+    .meta{display:flex; flex-wrap:wrap; gap:8px; margin-top:14px;}
+    .chip{border:1.5px solid var(--ink); padding:3px 10px; border-radius:20px; font-size:0.75rem; background:var(--paper);}
+  </style>
+</head>
+<body>
+  <div class="page">
+    <a class="back" href="index.html">← Back to portfolio</a>
+    <section class="hero">
+      <h1>Project details</h1>
+      <p>Each card now opens a dedicated project page with a focused overview.</p>
+    </section>
+
+    <section class="card" id="project-one">
+      <div class="tag">Design</div>
+      <h2>Placeholder Project One</h2>
+      <p>This project explores a complete brand system and UI direction for a fictional product launch. The goal was to balance clarity, warmth, and a polished visual identity.</p>
+      <div class="meta">
+        <span class="chip">Figma</span>
+        <span class="chip">Branding</span>
+      </div>
+    </section>
+
+    <section class="card" id="project-two">
+      <div class="tag">Code</div>
+      <h2>Placeholder Project Two</h2>
+      <p>This build focuses on a lightweight web app experience with clean interactions and responsive layouts. It highlights modern front-end structure and a straightforward user flow.</p>
+      <div class="meta">
+        <span class="chip">React</span>
+        <span class="chip">Node.js</span>
+      </div>
+    </section>
+
+    <section class="card" id="project-three">
+      <div class="tag">Photography</div>
+      <h2>Placeholder Project Three</h2>
+      <p>This gallery captures a recurring visual theme through documentary-style imagery and careful sequencing. The work leans into mood, texture, and narrative pacing.</p>
+      <div class="meta">
+        <span class="chip">35mm</span>
+        <span class="chip">Series</span>
+      </div>
+    </section>
+
+    <section class="card" id="project-four">
+      <div class="tag">Motion</div>
+      <h2>Placeholder Project Four</h2>
+      <p>This motion piece uses rhythm and pacing to communicate a compact story, blending typography, sound, and visual transitions into a cohesive sequence.</p>
+      <div class="meta">
+        <span class="chip">After Effects</span>
+        <span class="chip">Client work</span>
+      </div>
+    </section>
+
+    <section class="card" id="project-five">
+      <div class="tag">Illustration</div>
+      <h2>Placeholder Project Five</h2>
+      <p>This illustration work is driven by color, texture, and personal symbolism. It was created as an expressive exploration of mood and form.</p>
+      <div class="meta">
+        <span class="chip">Procreate</span>
+        <span class="chip">Personal</span>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
